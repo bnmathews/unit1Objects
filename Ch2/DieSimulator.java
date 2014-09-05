@@ -3,10 +3,7 @@ public class DieSimulator
 {
     public static void main(String[] args)
     {
-        while (1 == 1)
-        {
-        Random rand = new Random(3);
-        System.out.println(rand);
-        }
+        Random rand = new Random();
+        System.out.println("You rolled: " + ( rand.nextInt(6 - 1 + 1) + 1 ));
     }
 }
